@@ -70,3 +70,25 @@ footer{
   background-color: #aaaaaa;
 }
 
+@media screen and (max-width: 768px){
+  main{
+    width: 90%;
+  }
+
+  .main-contents-list{
+    display: block;
+  }
+
+  .main-contents{
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+    padding: 10px;
+    position: relative;
+    background-color: #eee;
+  }
+
+  .main-contents:last-child{
+    margin-bottom: 0;
+  }
+}
